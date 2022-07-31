@@ -1,7 +1,7 @@
 package simpletrace
 
 import (
-	"wegod/internal/pkg/stringhelper"
+	"github.com/995933447/stringhelper-go"
 )
 
 func NewSpanId() string {
