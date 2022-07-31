@@ -2,7 +2,7 @@ package context
 
 import (
 	"context"
-	"wegod/internal/pkg/trace/simpletrace"
+	"github.com/995933447/simpletrace"
 )
 
 type Context struct {
