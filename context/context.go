@@ -9,7 +9,6 @@ type Context struct {
 	context.Context
 	traceId string
 	spanId string
-	ctx context.Context
 	moduleName string
 	parentCtx *Context
 }
@@ -25,7 +24,7 @@ func New(moduleName string, ctx context.Context, traceId, spanId string) *Contex
 		moduleName: moduleName,
 		traceId: traceId,
 		spanId: spanId,
-		ctx: ctx,
+		Context: ctx,
 	}
 }
 
